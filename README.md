@@ -124,8 +124,9 @@ def HttpCombined(req: func.HttpRequest,
 5. Press Enter to send the request.
 6. The response will be shown in the output terminal.
     You can verify the data was successfully:
-    •	Sent to the Azure Queue (outqueue)
-    •	Inserted into your Azure SQL Database table (dbo.ToDo)
-    [demo video pleas click here](https://youtu.be/etG3j_Hr0Os)
-    ![output](output.png)
-7. When finished testing, you can press Ctrl + C in the terminal to stop the Azure Functions Core Tools host.
+    * Sent to the Azure Queue (outqueue)
+    * Inserted into your Azure SQL Database table (dbo.ToDo)
+    * [demo video pleas click here](https://youtu.be/etG3j_Hr0Os)
+    * output result like that:
+      ![output](output.png)
+1. When finished testing, you can press Ctrl + C in the terminal to stop the Azure Functions Core Tools host.
