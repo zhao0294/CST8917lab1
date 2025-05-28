@@ -12,7 +12,7 @@ This project contains an Azure Function written in Python that uses a single HTT
 ├── function_app.py         # Python function with queue + SQL output
 ├── requirements.txt        # Required Python packages
 ├── local.settings.json     # Local settings (ignored by Git)
-└── README.md               # This file
+└── README.md               
 ```
 
 ## Prerequisites
