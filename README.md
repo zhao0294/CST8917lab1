@@ -7,11 +7,13 @@ This project contains an Azure Function written in Python that uses a single HTT
 
 ## Project Structure
 
+```text
 .
-├── function_app.py       # Python function with queue + SQL output
-├── requirements.txt      # Required Python packages
-├── local.settings.json   # Local settings (ignored by Git)
-└── README.md             # This file
+├── function_app.py         # Python function with queue + SQL output
+├── requirements.txt        # Required Python packages
+├── local.settings.json     # Local settings (ignored by Git)
+└── README.md               # This file
+```
 
 ## Prerequisites
 
@@ -126,7 +128,7 @@ def HttpCombined(req: func.HttpRequest,
     You can verify the data was successfully:
     * Sent to the Azure Queue (outqueue)
     * Inserted into your Azure SQL Database table (dbo.ToDo)
-    * [demo video pleas click here](https://youtu.be/etG3j_Hr0Os)
+    * [demo video please click here](https://youtu.be/etG3j_Hr0Os)
     * output result like that:
       ![output](output.png)
 1. When finished testing, you can press Ctrl + C in the terminal to stop the Azure Functions Core Tools host.
